@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,26,162,1) 0%, rgba(9,9,121,1) 0%, rgba(47,78,159,1) 0%, rgba(199,207,214,1) 50%, rgba(19,135,158,1) 100%);
+    
+}
+
+
+
+header{
+    margin: 0;
+    display: flex ;
+    align-items: center;
+    height: 150px;
+    width:100%;
+
+
+}
+nav{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    
+}
+header nav{
+    margin: 0;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: relative;
+    
+}
+nav .navbar{
+    margin: 0;
+    height: 150px;
+    width: 90%;
+    margin: 20px auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navbar .logo{
+    height: 150px;
+    width 200px;
+}
+.navbar .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+.navbar .menu{
+    display: flex;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 10px;
+}
+.menu li a{
+    font-size: 25px;
+    color: #547291;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #fff;
+}
+.navbar .search-box{
+    position: relative;
+    height: 50px;
+    width: 250px;
+}
+.search-box input[type="text"]{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    color: #2c3e50;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    padding: 0 15px 0 40px;
+}
+.search-box a{
+    position: absolute;
+    left: 10px;
+    bottom: 50%;
+    transform: translatey(50%);
+    font-size: 20px;
+    border-right-width: 2px solid #2c3e50;
+    padding: 0 10px 0 0;
+    color: #000;
+
+}
+.search-box .i{
+    color: #fff;
+}
+.bgimage{
+    height: 100vh;
+    width: 100%;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+}
+.content .text-content{
+    position: absolute;
+    top: 43%;
+    left: 18%;
+}
+.content .text{
+    font-size: 35px;
+}
+.content .name{
+    font-size: 75px;
+}
+.content .job{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.content .job span{
+    margin-right: 10px;
+}
+.content .typing-text{
+    font-size: 40px;
+    color: rgb(42, 1, 42);
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgb(42, 1, 42) ;
+    animation: typing 3s steps(12)infinite;
+    
+}
+@keyframes typing {
+   0%{
+    width: 0ch;
+   } 
+   50%{
+    width: 10ch;
+   }
+   100%{
+    width: 0ch;
+   }
+}
+.content .buttons{
+     margin-top: 10px;
+     
+}
+.content .buttons .button2{
+    margin-left: 10px;
+}
+.content .buttons button{
+    color: #fff;
+    padding: 8px 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    background: linear-gradient(135deg,#94122c 10%, #931993 100%   );
+    transition: all 0.3s ease;
+}
+.content .buttons button:hover{
+    transform: scale(1.25);
+}
+footer{
+    height: 150px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.foot{
+    margin-left: 80px;
+}
+.foot .gmail{
+    color: #fff;
+}
+.foot .contact {
+    color: #fff;
+}
+.foot .media-icons{
+    position: absolute;
+    right: 80px;
+    bottom: -260px;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+.foot .media-icons a{
+    margin-right: 20px;
+    font-size: 40px;
+}
+.foot .foot-logo img{
+    height: 150px;
+    width: 150px;
+}
+.foot .foot-logo{
+    position: absolute;
+    left: 100px;
+    bottom: -307px;
+}
+.profile{
+    
+}
+
